@@ -1,0 +1,34 @@
+# dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# environment - NEVER commit real secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# runtime / storage (owned by the file-storage module)
+uploads/
+storage/
+tmp/
+
+# build output
+dist/
+build/
+coverage/
+
+# editors & OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
